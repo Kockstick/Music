@@ -1,0 +1,23 @@
+﻿<Border x:Class="Music.MusicItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Music"
+        mc:Ignorable="d"
+        Height="70" Width="340"
+        CornerRadius="15"
+        Background="LightGreen"
+        Margin="10"
+        HorizontalAlignment="Center">
+    <Grid>
+
+        <Label
+            Name="nameLabel"
+            Content="name"
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Left"
+            Padding="25,0,25,0"
+            FontSize="25"/>
+    </Grid>
+</Border>
